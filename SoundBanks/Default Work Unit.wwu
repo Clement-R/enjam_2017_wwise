@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9773F4D3-9B20-4BA1-9A06-F60879BBB2D0}" SchemaVersion="80">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{9773F4D3-9B20-4BA1-9A06-F60879BBB2D0}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="New_SoundBank" ID="{D3C55FFD-5289-4C5F-B206-F8DD315B59E0}">
+					<ObjectInclusionList>
+						<ObjectRef Name="cris_donjon" ID="{455B1FE5-FCEE-4052-A02F-5FED0847A560}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="menu_reprendre" ID="{C1FFBCA3-9906-42D0-8720-A4631779BA1D}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="cris_porte" ID="{48C819FF-C010-42D1-A72D-FB88ABD9C94F}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="revenir_main_menu" ID="{6AA342CD-E711-43BD-A7DA-C02079D51AF0}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="lancement_partie" ID="{1631C9A5-7BDF-43C1-B5C9-8683DA63E6D3}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="planter_valide" ID="{876AEFEB-733A-4449-88AE-9CC9ED8B70B3}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="cris_brique" ID="{F7B02978-5380-44D6-AC87-76E5718E7100}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="music_menu" ID="{CD25A5BB-167E-4652-9E84-175A8BC9DA96}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Main_switch" ID="{E1BA3E48-31AD-466C-920E-FF7F9C1B540F}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="grab_refus" ID="{5DD8461D-2D30-46B0-A31D-A061E09898AD}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="planter_tourelle" ID="{B3C21DF3-A74D-46F5-842B-27EA63CBDC33}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="transition_menu" ID="{93A577A3-6E4A-4733-8FE4-5A9C9E07B9B8}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="main_theme" ID="{37E5F1EA-DC8A-47D0-B366-97ED0B1DA938}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="menu_survoler" ID="{688AF4AB-8AB6-485E-9E04-8AF7202D3D0A}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="planter_porte" ID="{98469D6C-D4C8-4992-90DD-B46AB32AF1C2}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="decompte" ID="{1D5B996A-A91D-49AF-A527-6A977E2775CF}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="quitter_menu_pause" ID="{AB967F57-0E51-4A75-B364-C199A0D019AA}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="end" ID="{7A555946-BB92-4BAD-B043-27C1CBB923E0}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="planter_donjon" ID="{8A1E3EE9-26B3-4C1A-BABD-FB8365002365}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="cris_tourelle" ID="{DA10974B-22F2-4D31-9756-E6E55F7747E8}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="menu_select" ID="{2DA05D34-7525-4D96-BDF8-24D29C57EEC2}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="planter_brique" ID="{A90E732B-74D7-4E52-BE40-6E0633FCF80D}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="menu_pause" ID="{98C91F82-4C0E-4F8E-863E-09DD7D71E508}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

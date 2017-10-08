@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BC346045-F9DD-4BDE-8B03-B87C5A9AE53C}" SchemaVersion="80">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{BC346045-F9DD-4BDE-8B03-B87C5A9AE53C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="ENJAM" ID="{CAF47EB3-762B-405D-A740-A05576FD28E1}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Main_switch" ID="{E1BA3E48-31AD-466C-920E-FF7F9C1B540F}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="planter_porte" ID="{98469D6C-D4C8-4992-90DD-B46AB32AF1C2}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="grab -  - Sortie - Stereo Out" ID="{A7C3F093-C7B3-4F40-B6F3-7EDBBFFDB8A4}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="music_menu" ID="{CD25A5BB-167E-4652-9E84-175A8BC9DA96}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="transition_menu" ID="{93A577A3-6E4A-4733-8FE4-5A9C9E07B9B8}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="end" ID="{7A555946-BB92-4BAD-B043-27C1CBB923E0}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="planter_tourelle" ID="{B3C21DF3-A74D-46F5-842B-27EA63CBDC33}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="lancement_partie" ID="{1631C9A5-7BDF-43C1-B5C9-8683DA63E6D3}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="menu_select" ID="{2DA05D34-7525-4D96-BDF8-24D29C57EEC2}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="planter_valide" ID="{876AEFEB-733A-4449-88AE-9CC9ED8B70B3}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="cris_brique" ID="{F7B02978-5380-44D6-AC87-76E5718E7100}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="cris_porte" ID="{48C819FF-C010-42D1-A72D-FB88ABD9C94F}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="planter_brique" ID="{A90E732B-74D7-4E52-BE40-6E0633FCF80D}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="menu_survoler" ID="{688AF4AB-8AB6-485E-9E04-8AF7202D3D0A}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="decompte" ID="{1D5B996A-A91D-49AF-A527-6A977E2775CF}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="cris_donjon" ID="{455B1FE5-FCEE-4052-A02F-5FED0847A560}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="cris_tourelle" ID="{DA10974B-22F2-4D31-9756-E6E55F7747E8}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="planter_donjon" ID="{8A1E3EE9-26B3-4C1A-BABD-FB8365002365}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="grab_refus" ID="{5DD8461D-2D30-46B0-A31D-A061E09898AD}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="menu_pause" ID="{98C91F82-4C0E-4F8E-863E-09DD7D71E508}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="menu_reprendre" ID="{C1FFBCA3-9906-42D0-8720-A4631779BA1D}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="revenir_main_menu" ID="{6AA342CD-E711-43BD-A7DA-C02079D51AF0}" WorkUnitID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="boucle1" ID="{251A1B9E-BA85-4C2A-A1B5-3ACF862488DC}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

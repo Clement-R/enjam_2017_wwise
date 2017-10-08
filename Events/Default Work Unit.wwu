@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" SchemaVersion="80">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B62D9A22-40A9-4E8A-BF93-1CEC3653CB14}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Main_switch" ID="{E1BA3E48-31AD-466C-920E-FF7F9C1B540F}">
+					<ChildrenList>
+						<Action Name="" ID="{8A1DA99A-2FB4-4640-BE51-F70CC6E09A40}" ShortID="1072342900">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="main_switch" ID="{05F92F51-666F-4124-A2F7-8F059F1D4D62}" WorkUnitID="{471B0AE8-0D5C-4FD2-9816-6799A2C98D44}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8C7B0AF6-5AFB-429F-B64A-6E6B762F6900}" ShortID="358976309">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambiance -  - Sortie - Stereo Out" ID="{5C623536-30A3-4998-8AA9-5583680726A0}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="end" ID="{7A555946-BB92-4BAD-B043-27C1CBB923E0}">
+					<ChildrenList>
+						<Action Name="" ID="{76E0CF59-FD3F-403F-9A33-278C8A8ED105}" ShortID="2055254">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="end -  - Sortie - Stereo Out" ID="{6A3EB844-B1D5-44D6-A649-1257C635E146}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{967A1F41-2F87-4E2C-9B8C-A403270214B1}" ShortID="618470964">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="end2 -  - Sortie - Stereo Out" ID="{5A14DAAC-777E-4F35-AD14-0DBCD52A92A8}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E7DD450F-08B7-468A-9715-A2EEE51700C3}" ShortID="995083180">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+							<ChildrenList>
+								<EventActionException Name="" ID="{5EE6F601-38A6-4B8C-A951-EB3C75AAC9CB}">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="end -  - Sortie - Stereo Out" ID="{6A3EB844-B1D5-44D6-A649-1257C635E146}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+										</Reference>
+									</ReferenceList>
+								</EventActionException>
+								<EventActionException Name="" ID="{2A6DFC04-C5DF-4F68-9E17-5FF1C22BA89C}">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="end2 -  - Sortie - Stereo Out" ID="{5A14DAAC-777E-4F35-AD14-0DBCD52A92A8}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+										</Reference>
+									</ReferenceList>
+								</EventActionException>
+							</ChildrenList>
+						</Action>
+						<Action Name="" ID="{9A8CD127-4A3C-4E21-BBF4-E8C7E4DF4DB0}" ShortID="74810355">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="music_victoire" ID="{74E2CD03-36C0-4CBE-A006-88A6588E9F4C}" WorkUnitID="{471B0AE8-0D5C-4FD2-9816-6799A2C98D44}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8339B09F-8DDB-49C3-A074-1A494C036ECF}" ShortID="131570141">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambiance -  - Sortie - Stereo Out" ID="{5C623536-30A3-4998-8AA9-5583680726A0}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="planter_tourelle" ID="{B3C21DF3-A74D-46F5-842B-27EA63CBDC33}">
+					<ChildrenList>
+						<Action Name="" ID="{EE13BFF3-0E3B-49AB-8433-D2535EA9C512}" ShortID="250071028">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="planter_tourelle -  - Sortie - Stereo Out" ID="{E2254D3E-144C-4D7E-995A-693EFF688B33}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{68A26AA4-DA0B-46B4-A3A6-8A5C2C2DF036}" ShortID="708463932">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cris_tourelle -  - Sortie - Stereo Out" ID="{CFEC23CE-4972-42B8-9B76-A1C9374668D4}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="planter_porte" ID="{98469D6C-D4C8-4992-90DD-B46AB32AF1C2}">
+					<ChildrenList>
+						<Action Name="" ID="{7B71A1D9-2BFA-43F0-B9EA-84B329BCEB79}" ShortID="164303485">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="planter_porte -  - Sortie - Stereo Out" ID="{7D89D685-54F2-470A-B2FA-D7698E087D46}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C1711659-5BC3-4781-9CF4-0C85A0E41815}" ShortID="379648375">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cris_porte -  - Sortie - Stereo Out" ID="{3D2CE7B8-9852-42CA-BAAF-C30196DF41D2}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="music_menu" ID="{CD25A5BB-167E-4652-9E84-175A8BC9DA96}">
+					<ChildrenList>
+						<Action Name="" ID="{247ADB91-B509-4383-AB9E-0D0337E68DAD}" ShortID="770300823">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="menu" ID="{27D2BF2C-7FFA-417C-A5A3-05BACDF23AD8}" WorkUnitID="{471B0AE8-0D5C-4FD2-9816-6799A2C98D44}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="cris_donjon" ID="{455B1FE5-FCEE-4052-A02F-5FED0847A560}">
+					<ChildrenList>
+						<Action Name="" ID="{75D283BC-74E8-4AAA-805C-9257A04C28FD}" ShortID="501470604">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cris_donjon -  - Sortie - Stereo Out" ID="{387D161E-4055-4799-A85D-1CB43387A258}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="cris_tourelle" ID="{DA10974B-22F2-4D31-9756-E6E55F7747E8}">
+					<ChildrenList>
+						<Action Name="" ID="{376B7F86-1CB6-4814-B9C3-3B65A5B3DC32}" ShortID="784700125">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cris_tourelle -  - Sortie - Stereo Out" ID="{CFEC23CE-4972-42B8-9B76-A1C9374668D4}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="cris_brique" ID="{F7B02978-5380-44D6-AC87-76E5718E7100}">
+					<ChildrenList>
+						<Action Name="" ID="{CDF31FB3-1576-46B9-8334-873BBEA15857}" ShortID="294002993">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cris_brique -  - Sortie - Stereo Out" ID="{35F70BCE-019A-4316-A6DF-74082D441DE4}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="cris_porte" ID="{48C819FF-C010-42D1-A72D-FB88ABD9C94F}">
+					<ChildrenList>
+						<Action Name="" ID="{C3D1A31F-558B-49E4-94A1-7A5B9ED7F71E}" ShortID="127079681">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cris_porte -  - Sortie - Stereo Out" ID="{3D2CE7B8-9852-42CA-BAAF-C30196DF41D2}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="planter_brique" ID="{A90E732B-74D7-4E52-BE40-6E0633FCF80D}">
+					<ChildrenList>
+						<Action Name="" ID="{420BC44B-B9C8-4248-8195-80474CE25FE9}" ShortID="350856965">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="planter_brique -  - Sortie - Stereo Out" ID="{FA0DA197-2108-4F4C-B690-1E1A417D4511}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2A0549F2-44B3-4C57-9CE0-64BE8C9CFAD9}" ShortID="616805940">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cris_brique -  - Sortie - Stereo Out" ID="{35F70BCE-019A-4316-A6DF-74082D441DE4}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="planter_donjon" ID="{8A1E3EE9-26B3-4C1A-BABD-FB8365002365}">
+					<ChildrenList>
+						<Action Name="" ID="{C2CB5BAC-0407-41C5-9212-8FE26F36F159}" ShortID="574014954">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="planter_donjon -  - Sortie - Stereo Out" ID="{C9795F97-7F92-4CC9-8D1D-A4852D75440E}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A3D291CD-14A0-4AF1-9EC3-EEE83A61939A}" ShortID="168270619">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cris_donjon -  - Sortie - Stereo Out" ID="{387D161E-4055-4799-A85D-1CB43387A258}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="menu_pause" ID="{98C91F82-4C0E-4F8E-863E-09DD7D71E508}">
+					<ChildrenList>
+						<Action Name="" ID="{E326E84E-9FB0-4D1E-81D3-FAE24279CF24}" ShortID="186725036">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="8"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+								<Property Name="Lowpass" Type="int16" Value="68"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+							<ChildrenList>
+								<EventActionException Name="" ID="{2C836EBE-B471-4A64-A3E4-269B1B765F70}">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="music_pause" ID="{93360DDB-6DB2-437D-AC92-6EB530A72AE0}" WorkUnitID="{471B0AE8-0D5C-4FD2-9816-6799A2C98D44}"/>
+										</Reference>
+									</ReferenceList>
+								</EventActionException>
+							</ChildrenList>
+						</Action>
+						<Action Name="" ID="{986C23C9-31F7-46B1-A8F4-C5B710F46AFC}" ShortID="949192906">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="music_pause" ID="{93360DDB-6DB2-437D-AC92-6EB530A72AE0}" WorkUnitID="{471B0AE8-0D5C-4FD2-9816-6799A2C98D44}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="menu_reprendre" ID="{C1FFBCA3-9906-42D0-8720-A4631779BA1D}">
+					<ChildrenList>
+						<Action Name="" ID="{12DB2785-17FF-46DF-8E36-E12FF55482BB}" ShortID="140357677">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="10"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+							<ChildrenList>
+								<EventActionException Name="" ID="{FED1BC98-E5B5-4983-B8CC-39B64C01E7AB}">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="music_pause" ID="{93360DDB-6DB2-437D-AC92-6EB530A72AE0}" WorkUnitID="{471B0AE8-0D5C-4FD2-9816-6799A2C98D44}"/>
+										</Reference>
+									</ReferenceList>
+								</EventActionException>
+							</ChildrenList>
+						</Action>
+						<Action Name="" ID="{D5E7D0B6-36B6-4FFE-A10D-07465E310AB9}" ShortID="942017029">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="music_pause" ID="{93360DDB-6DB2-437D-AC92-6EB530A72AE0}" WorkUnitID="{471B0AE8-0D5C-4FD2-9816-6799A2C98D44}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="revenir_main_menu" ID="{6AA342CD-E711-43BD-A7DA-C02079D51AF0}">
+					<ChildrenList>
+						<Action Name="" ID="{D03D9108-5411-471F-B585-B1076719B2C4}" ShortID="857703371">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="music_victoire" ID="{74E2CD03-36C0-4CBE-A006-88A6588E9F4C}" WorkUnitID="{471B0AE8-0D5C-4FD2-9816-6799A2C98D44}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5BC4A504-6C46-4DE4-955B-A66CD88355BA}" ShortID="896681674">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambiance -  - Sortie - Stereo Out" ID="{5C623536-30A3-4998-8AA9-5583680726A0}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7B34ABAE-44C7-48AD-AD3A-5E8E6BD7324C}" ShortID="983685442">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="menu" ID="{27D2BF2C-7FFA-417C-A5A3-05BACDF23AD8}" WorkUnitID="{471B0AE8-0D5C-4FD2-9816-6799A2C98D44}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="lancement_partie" ID="{1631C9A5-7BDF-43C1-B5C9-8683DA63E6D3}">
+					<ChildrenList>
+						<Action Name="" ID="{A08C504B-4323-47D9-AFF2-4172945D1854}" ShortID="308699681">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="menu" ID="{27D2BF2C-7FFA-417C-A5A3-05BACDF23AD8}" WorkUnitID="{471B0AE8-0D5C-4FD2-9816-6799A2C98D44}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{52D9D1DD-E43E-4452-AE0D-1028FC7273BF}" ShortID="875749307">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="music_victoire" ID="{74E2CD03-36C0-4CBE-A006-88A6588E9F4C}" WorkUnitID="{471B0AE8-0D5C-4FD2-9816-6799A2C98D44}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8775C309-1F6B-4104-B37A-0BE78C6F3BDA}" ShortID="374437052">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ambiance -  - Sortie - Stereo Out" ID="{5C623536-30A3-4998-8AA9-5583680726A0}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="menu_survoler" ID="{688AF4AB-8AB6-485E-9E04-8AF7202D3D0A}">
+					<ChildrenList>
+						<Action Name="" ID="{BB795CA9-E697-4D49-B257-D966E9FFD3E8}" ShortID="196137953">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="menu_survoler -  - Sortie - Stereo Out" ID="{F7914814-13FE-418C-A5A9-30A6955A3BAD}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="menu_select" ID="{2DA05D34-7525-4D96-BDF8-24D29C57EEC2}">
+					<ChildrenList>
+						<Action Name="" ID="{BEF2996C-1816-46D6-8C12-51CE0124C2FF}" ShortID="218389253">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="menu_select" ID="{BA2047F9-F78C-4DDC-9A99-60901DD4B4B8}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="grab_refus" ID="{5DD8461D-2D30-46B0-A31D-A061E09898AD}">
+					<ChildrenList>
+						<Action Name="" ID="{F163D3D6-75BB-4658-9BEA-D8AA27F3B43A}" ShortID="518229154">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="grab_refus -  - Sortie - Stereo Out" ID="{A133C58E-B106-4554-867C-05FB5B4BC495}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="transition_menu" ID="{93A577A3-6E4A-4733-8FE4-5A9C9E07B9B8}">
+					<ChildrenList>
+						<Action Name="" ID="{2F0C0D04-B19B-4E2A-924E-41C3FC220115}" ShortID="146241533">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="transition_menu -  - Sortie - Stereo Out" ID="{170427CA-46E1-436C-A75C-2B6F71777176}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="decompte" ID="{1D5B996A-A91D-49AF-A527-6A977E2775CF}">
+					<ChildrenList>
+						<Action Name="" ID="{40C89E29-0275-49D4-A1EB-E56EECC8F990}" ShortID="473470823">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="decompte -  - Sortie - Stereo Out" ID="{6A3CB6F1-5B8B-4474-A1E2-A16F1F0EA452}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="planter_valide" ID="{876AEFEB-733A-4449-88AE-9CC9ED8B70B3}">
+					<ChildrenList>
+						<Action Name="" ID="{92BD035F-3B2D-4C8D-A20E-C844C70BFF63}" ShortID="57256941">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="planter_valide -  - Sortie - Stereo Out" ID="{95660FBB-32E9-4875-B17A-3C3775CA9FF8}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{15E9358A-8387-4B78-A8AD-83D477612840}" ShortID="313504811">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cris_brique -  - Sortie - Stereo Out" ID="{35F70BCE-019A-4316-A6DF-74082D441DE4}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C9D0A595-B5CD-407C-A24C-B4CA351AF0C8}" ShortID="751327227">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cris_donjon -  - Sortie - Stereo Out" ID="{387D161E-4055-4799-A85D-1CB43387A258}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{170ACCE9-CAAF-4511-BD5D-74DCE977F15C}" ShortID="166869518">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cris_porte -  - Sortie - Stereo Out" ID="{3D2CE7B8-9852-42CA-BAAF-C30196DF41D2}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3D11F75D-0C02-4FA7-B611-5E4B200F9D56}" ShortID="858842546">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="cris_tourelle -  - Sortie - Stereo Out" ID="{CFEC23CE-4972-42B8-9B76-A1C9374668D4}" WorkUnitID="{42581BC0-A100-49BA-905C-BDC18781DE56}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="quitter_menu_pause" ID="{AB967F57-0E51-4A75-B364-C199A0D019AA}">
+					<ChildrenList>
+						<Action Name="" ID="{11BD2DAF-7A2B-4C04-82E5-9203B6546CB8}" ShortID="343464930">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
+							<ChildrenList>
+								<EventActionException Name="" ID="{1F1C5CA8-64AE-48A0-9456-2F017810DA60}">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="menu" ID="{27D2BF2C-7FFA-417C-A5A3-05BACDF23AD8}" WorkUnitID="{471B0AE8-0D5C-4FD2-9816-6799A2C98D44}"/>
+										</Reference>
+									</ReferenceList>
+								</EventActionException>
+							</ChildrenList>
+						</Action>
+						<Action Name="" ID="{23E31A28-A6C8-429E-90EC-ED00FD028DF4}" ShortID="691919251">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+								<Property Name="Delay" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="menu" ID="{27D2BF2C-7FFA-417C-A5A3-05BACDF23AD8}" WorkUnitID="{471B0AE8-0D5C-4FD2-9816-6799A2C98D44}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="main_theme" ID="{37E5F1EA-DC8A-47D0-B366-97ED0B1DA938}">
+					<ChildrenList>
+						<Action Name="" ID="{3D3E1237-101C-4FA1-A84B-B06956A415C5}" ShortID="1045892806">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="main_switch" ID="{DFBA130F-E9AD-480C-8212-4832E459BCBC}" WorkUnitID="{471B0AE8-0D5C-4FD2-9816-6799A2C98D44}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

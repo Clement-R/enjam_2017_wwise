@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E76B4367-4FF2-4CD0-9EDB-0A3035EF6112}" SchemaVersion="80">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{E76B4367-4FF2-4CD0-9EDB-0A3035EF6112}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="main_switch" ID="{A5769981-3E30-43E1-90A0-7579153AD4C5}">
+					<ChildrenList>
+						<Switch Name="boucle1" ID="{251A1B9E-BA85-4C2A-A1B5-3ACF862488DC}"/>
+						<Switch Name="boucle2" ID="{54DBB951-CD88-46F5-93ED-86E74F397E42}"/>
+						<Switch Name="boucle3" ID="{FBC8BA69-1C31-45AD-AE7F-423E376FFF30}"/>
+						<Switch Name="boucle4" ID="{7529CCAE-4687-4F8F-8696-A51C507D15B0}"/>
+						<Switch Name="transition1" ID="{8A011744-0FD6-43E4-BD1B-F5CED22B96FE}"/>
+						<Switch Name="transition2" ID="{B16D6264-264E-4D9A-BD8F-510858779FE3}"/>
+						<Switch Name="transition3" ID="{7CF15BED-2314-4E0A-BEDC-0387FCCD531E}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
